@@ -14,7 +14,7 @@
      <!-- Custom styles for this template -->
     <link href="main.css" rel="stylesheet">
     
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    
 
     <!-- Bootstrap core CSS -->
     <link href="../../dist/css/bootstrap.min.css" rel="stylesheet">
@@ -101,49 +101,32 @@
 
       <div class="row featurette">
         <div class="col-md-7">
-          
+      <div class="inner contact">
+  
+        
+        <!-- Contact -->
+        
+        <form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
+	<div class="row">
+		<label for="name">Your name:</label><br />
+		<input id="name" class="input" name="name" type="text" value="" size="30" /><br />
+	</div>
+	<div class="row">
+		<label for="email">Your email:</label><br />
+		<input id="email" class="input" name="email" type="text" value="" size="30" /><br />
+	</div>
+	<div class="row">
+		<label for="message">Your message:</label><br />
+		<textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br />
+	</div>
+	<input id="submit_button" type="submit" value="Send email" />
+</form>		
+
+    
    
-          
-       <div class="inner contact">
-  <!-- Form Area -->
-  <div class="contact-form">
-    <!-- Form -->
-    <form id="contact-us" method="post" action="#">
-      <!-- Left Inputs -->
-      <div class="col-xs-6 wow animated slideInLeft" data-wow-delay=".5s">
-        <!-- Name -->
-        <input type="text" name="name" id="name" required="required" class="form" placeholder="Name" />
-        <!-- Email -->
-        <input type="email" name="mail" id="mail" required="required" class="form" placeholder="Email" />
-        <!-- Subject -->
-        <input type="text" name="subject" id="subject" required="required" class="form" placeholder="Subject" />
-      </div>
-      <!-- End Left Inputs -->
-      <!-- Right Inputs -->
-      <div class="col-xs-6 wow animated slideInRight" data-wow-delay=".5s">
-        <!-- Message -->
-        <textarea name="message" id="message" class="form textarea" placeholder="Message"></textarea>
-      </div>
-      <!-- End Right Inputs -->
-      <!-- Bottom Submit -->
-      <div class="relative fullwidth col-xs-12">
-        <!-- Send Button -->
-        <button type="submit" id="submit" name="submit" class="form-btn semibold">Send Message</button>
-      </div>
-      <!-- End Bottom Submit -->
-      <!-- Clear -->
-      <div class="clear"></div>
-    </form>
 
-    <!-- Your Mail Message -->
-    <div class="mail-message-area">
-      <!-- Message -->
-      <div class="alert gray-bg mail-message not-visible-message">
-        <strong>Thank You !</strong> Your email has been delivered.
-      </div>
-    </div>
-
-  </div>
+  
+        </div>
   <!-- End Contact Form Area -->
 </div>
 <!-- End Inner -->
@@ -160,10 +143,7 @@
 
 
       <!-- FOOTER -->
-      <footer>
-        <p class="pull-right"><a href="#" class="btn btn-info btn-lg">
-          <span class="glyphicon glyphicon-arrow-up"></span> Top </a></p>
-        
+      <footer> 
       <p>&copy; 2017 Kay's Dishes, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
       </footer>
 
@@ -177,6 +157,7 @@
     <script src="http://code.jquery.com/ui/1.12.4/jquery-ui.js"></script>
     <script type="text/javascript" src="main.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="node_modules/jquery/dist/jquery.min.js"><\/script>')</script>
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
